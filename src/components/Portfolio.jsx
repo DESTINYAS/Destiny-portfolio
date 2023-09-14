@@ -6,7 +6,6 @@ import drumKit from "../images/portfolio/drumKit.png";
 import diceGame from "../images/portfolio/diceGame.png";
 import marioClub from "../images/portfolio/marioClub.png";
 import time from "../images/portfolio/time.png";
-import { Link } from "react-scroll";
 
 const Portfolio = () => {
   const portfolios = [
