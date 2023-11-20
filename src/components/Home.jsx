@@ -1,5 +1,4 @@
 import React from 'react'
-import profileP from '../images/profileP1.png'
 import profileP1 from '../images/picture3.jpg'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { Link } from 'react-scroll'
