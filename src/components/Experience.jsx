@@ -6,6 +6,7 @@ import reactImage from "../images/react.png";
 import nestjs from "../images/nestjs.png";
 import nodejs from "../images/nodejs.png";
 import github from "../images/github.png";
+import java from "../images/Java-Logo.png";
 import tailwind from "../images/tailwind.png";
 import docker from "../images/docker.png";
 import nginx from "../images/nginx.png";
@@ -79,6 +80,12 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 12,
+      src: java,
+      title: "Java",
+      style: "shadow-gray-400",
+    },
   ];
 
   return (
@@ -88,13 +95,13 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-2 border-gray-500 p-1 py-0 inline">
             Experience
           </p>
-          <p className="py-6">These are some of the technologies I've worked with</p>
+          <p className="py-3">These are some of the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-1 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

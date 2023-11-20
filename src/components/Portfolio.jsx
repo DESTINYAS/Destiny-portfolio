@@ -5,6 +5,7 @@ import apiLocalCompass from "../images/portfolio/apiLocalCompass.png";
 import drumKit from "../images/portfolio/drumKit.png";
 import diceGame from "../images/portfolio/diceGame.png";
 import marioClub from "../images/portfolio/marioClub.png";
+import chat from "../images/portfolio/chatapp.png";
 import time from "../images/portfolio/time.png";
 
 const Portfolio = () => {
@@ -62,6 +63,14 @@ const Portfolio = () => {
       src: marioClub,
       demo:"https://destinyas.github.io/MarioClub/",
       code : "https://github.com/DESTINYAS/StopWatch",
+      textCode : "Code",
+      textDemo : "Demo"
+      },
+    {
+      id: 8,
+      src: chat,
+      demo:"https://chat-app-nl1a.onrender.com/api/",
+      code : "https://github.com/DESTINYAS/DISTRIBUTED-CHAT-APPLICATION",
       textCode : "Code",
       textDemo : "Demo"
       },
